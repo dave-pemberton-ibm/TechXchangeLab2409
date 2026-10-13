@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Target best-practices.md file path (override via env var TARGET_FILE or first argument, defaults to best-practices.md)
-TARGET_FILE="${TARGET_FILE:-${1:-best-practices.md}}"
+TARGET_FILE="${TARGET_FILE:-${1:-/home/itzuser/IBM/Bob/workspaces/FlowPilot-Lab/.bob/skills/wm-integration-skills/skills/flow/references/best-practices.md}}"
 
 # Remote source URL for upd-practices.md
 SOURCE_URL="https://raw.githubusercontent.com/dave-pemberton-ibm/TechXchangeLab2409/main/upd-practices.md"
